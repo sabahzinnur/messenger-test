@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.layout {
+  position: relative;
+  min-height: 100vh;
+}
+
+.empty {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 5rem;
+  height: 100vh
+}
+
+.main {
+  background: #fff;
+  width: 980px;
+  margin: 30px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  min-height: 720px;
+  max-height: 720px;
+  position: relative;
+}
+
+.nav-bar {
+  position: absolute;
+  width: 980px;
+  height: 60px;
+  box-shadow: 0 5px 6px -7px #000000;
+  background-color: #f8ab02;
+  z-index: 30;
+}
+
+.window {
+  display: flex;
+}
+
+.list {
+  position: relative;
+  width: 300px;
+  top: 60px;
+}
+
+.chat {
+  z-index: 20;
+  position: relative;
+  width: 680px;
+  top: 60px;
+  min-height: 630px;
+  max-height: 630px;
+  margin: 0.1rem 1rem;
+}
+
+.messages-aria {
+  top: -10px;
+  position: relative;
+  min-height: 560px;
+  max-height: 560px;
+  overflow: hidden;
+}
+
+.input-aria {
+  display: flex;
+  flex-wrap: nowrap;
+  top: -10px;
+  position: relative;
+  height: 100px;
+  min-height: 100px;
+  max-height: 100px;
+  border-top: 1px solid #E9EDF2;
+  background: #ffffff;
+}
+
+.app-loader {
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 10rem;
+  padding-top: 20rem;
+  background-image: url('../assets/loader.gif');
+  background-repeat: no-repeat;
+  background-size: 10rem;
+  background-position: center center;
+}
+
+
+/* buttons */
+.btn {
+  background-color: #eeeeee;
+  border: 1px solid #eeeeee;
+  border-radius: 5px;
+  color: #383838;
+  padding: 8px 10px;
+  margin: 8px 0;
+  font-size: 25px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: #eca70b;
+  border: 1px solid #eca70b;
+  color: #ffffff;
+}
+
+.btn i {
+  padding-top: 3px;
+  float: right;
+}
+
+
+.auth-card {
+  background: #fff;
+  width: 500px;
+  margin: 30px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  position: relative;
+}
+
+.auth-card label {
+  padding-right: 20px;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 10px;
+  background-color: #f8ab02;
+  width: 100%;
+}
+
+.card-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.card-action {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.card-footer {
+  color: #ffffff;
+  background-color: #f8ab02;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.card-footer p {
+  font-weight: bold;
+}
