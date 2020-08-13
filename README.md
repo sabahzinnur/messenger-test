@@ -26,10 +26,10 @@
 
 # Demo
 
-    https://simplemessenger-c6b84.web.app/
+   https://simplemessenger-c6b84.web.app/
 
     Для просмотра демо можно зарегистрироваться в двух разных браузерах, под разными именами,
- и проверить работоспособность приложения
+ и проверить работоспособность приложения 
     Или же используйте уже готовые учетные записи
    - winny@example.com
    - rabbit@example.com
@@ -41,6 +41,9 @@
 ## Project setup
 ```
 yarn install
+
+add your firebase project configuration into project file:  /src/config/firebaseConfig.js
+
 ```
 
 ### Compiles and hot-reloads for development
