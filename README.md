@@ -22,6 +22,7 @@
     -Vue filters
     -Vue directives
     -Vue plugins
+    -Vue mixins
     -Global events bus
 
 # Demo
